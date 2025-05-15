@@ -5,13 +5,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        h1{
-            background-color: black;
-            color: white;
-        }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 214, 159);
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-right:10px ;
+  }
+  li{
+    list-style-type: none;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
     </style>
 </head>
 <body>
-    <h1>hello user</h1>
+    <nav>
+        <h1><a href="">Navbar</a></h1>
+        <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">about</a></li>
+            <li><a href="">contact</a></li>
+            <li><a href="">product</a></li>
+        </ul>
+    </nav>
 </body>
 </html>
